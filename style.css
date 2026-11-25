@@ -55,7 +55,7 @@ h3 {font-size:1.85rem}
 body {background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
 header {width:92%;min-height:80px;padding:0;border-color:var(--rule)}
 .brand {font:600 1.45rem/1.12 var(--serif);letter-spacing:-.045em;color:var(--navy)}
-nav {gap:clamp(14px,3vw,38px);font-size:.94rem;font-weight:500}
+header nav {gap:clamp(18px,4vw,60px);font-size:.94rem;font-weight:500}
 nav a {position:relative;padding:12px 0}
 header nav a:hover, header .brand:hover {text-decoration:none}
 nav a[aria-current]:after,nav a:hover:after {content:"";position:absolute;bottom:5px;left:0;right:0;height:2px;background:var(--navy)}
@@ -155,7 +155,7 @@ footer p {margin:0}footer .footer-links {display:flex;gap:18px}footer a {font-we
 .category-link p,.work-group p {color:#46515d;margin:.7em 0 0}
 .work-group {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.65fr);gap:6%;margin-top:32px;padding-top:26px;border-top:1px solid var(--rule)}
 .work-group ul {list-style:none;padding:0;margin:0}
-.work-group li+li {border-top:1px solid var(--rule);padding-top:16px;margin-top:20px}
+.work-group li+li {padding-top:16px;margin-top:20px}
 .work-group h4 {margin:0;font:500 1.1rem/1.4 Poppins,Arial,sans-serif}
 .work-group h4 a {color:var(--navy)}
 @media(max-width:760px){.category-grid,.work-group {grid-template-columns:1fr;gap:16px}.category-number {margin-bottom:10px}}
@@ -164,3 +164,15 @@ footer p {margin:0}footer .footer-links {display:flex;gap:18px}footer a {font-we
 .resume-download {display:inline-flex;align-items:center;gap:10px;margin-top:18px;padding:13px 20px;border-radius:8px;background:var(--navy);color:white;text-decoration:none;font:700 1.06rem/1.4 "Source Sans Pro",Arial,sans-serif}
 .resume-download:hover,.resume-download:focus-visible {background:#305588;color:white;text-decoration:none}
 .resume-download:active {background:#0d203a}
+
+/* Align section rules to the header while keeping text columns readable. */
+body {container-type:inline-size}
+main section,.detail,.work-group,#resume h2 {position:relative}
+main section,#resume h2 {border-bottom:0}
+.detail,.work-group {border-top:0}
+main section::after,.detail::before,.work-group::before,#resume h2::after {
+  content:"";position:absolute;left:50%;width:92cqw;height:1px;
+  transform:translateX(-50%);background:var(--rule);pointer-events:none
+}
+main section::after,#resume h2::after {bottom:0}
+.detail::before,.work-group::before {top:0}
