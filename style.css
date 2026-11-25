@@ -142,7 +142,7 @@ footer p {margin:0}footer .footer-links {display:flex;gap:18px}footer a {font-we
 .brand span:last-child:before{display:none}.brand svg{position:absolute;left:0;bottom:.06em;width:.49em;height:.56em;fill:#000}.brand span:last-child{padding-left:.56em}
 
 .work-intro {padding:clamp(32px,4vw,56px) 0 0}
-.work-intro h1 {margin:.35em 0;font-size:clamp(2.6rem,4.5vw,3.5rem)}
+.work-intro h1 {font-weight:700;margin:.35em 0;font-size:clamp(2.6rem,4.5vw,3.5rem)}
 .work-intro .hero-summary {max-width:none;color:#000;margin:0}
 .work-page section {padding:clamp(32px,4vw,56px) 0}
 .work-page h2 {font-size:clamp(2.6rem,4.3vw,4rem)}
