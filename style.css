@@ -90,7 +90,7 @@ header .brand {display:grid;width:max-content;font:700 1.55rem/.82 Poppins,Arial
 header nav {font:500 clamp(.88rem,1.5vw,1.2rem)/1.4 Poppins,Arial,sans-serif;letter-spacing:-.025em;color:#141619}
 
 .profile section {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.65fr);gap:clamp(28px,6vw,84px);align-items:start;padding:clamp(32px,5vw,68px) 0}
-.profile .profile-intro {grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);align-items:center}
+.profile .profile-intro {grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);align-items:start}
 .profile-intro .portrait {width:100%}
 .profile h1 {font:800 clamp(2.4rem,4.5vw,4.6rem)/1 Poppins,Arial,sans-serif;text-transform:uppercase;letter-spacing:-.055em}
 .profile h2 {font-size:clamp(2rem,3.5vw,3.3rem);margin:0}
@@ -106,9 +106,9 @@ header nav {font:500 clamp(.88rem,1.5vw,1.2rem)/1.4 Poppins,Arial,sans-serif;let
 body:has(.profile) {background:white}
 .profile .profile-intro {width:min(92.4vw,1440px);position:relative;left:50%;transform:translateX(-50%);grid-template-columns:1fr 1fr;gap:0;padding:2.9vw 0 1.4vw}
 .profile-intro .portrait.headshot {border-radius:0;width:100%;max-width:none}
-.profile-bio {padding:2rem 7%;text-align:center;color:#111}
-.profile-bio h1 {font:400 clamp(2.4rem,3.15vw,4rem)/1.15 Poppins,Arial,sans-serif;letter-spacing:.035em;margin:0 0 .62em}
-.profile-bio p {font:400 clamp(.92rem,1.04vw,1.3rem)/1.6 Poppins,Arial,sans-serif;max-width:none;margin:0 0 1.1em}
+.profile-bio {padding:16px 7% 2rem;text-align:center;color:#111}
+.profile-bio h1 {font:700 clamp(2.4rem,3.15vw,4rem)/1.15 Poppins,Arial,sans-serif;letter-spacing:.035em;margin:0 0 .62em}
+.profile-bio p {font:400 clamp(.875rem,.96vw,1.125rem)/1.6 Poppins,Arial,sans-serif;max-width:none;margin:0 0 1.1em}
 .contact-icons {display:flex;justify-content:center;gap:6px;margin-top:24px}
 .contact-icons>* {width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#111;color:white;text-decoration:none;font:800 16px/1 Poppins,Arial,sans-serif}
 @media(max-width:760px){.profile .profile-intro {grid-template-columns:1fr;padding:24px 0}.profile-intro .portrait.headshot {max-width:420px;margin:auto}.profile-bio {padding:30px 4% 10px}}
