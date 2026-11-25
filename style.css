@@ -136,3 +136,5 @@ footer p {margin:0}footer .footer-links {display:flex;gap:18px}footer a {font-we
 .hero .actions a:last-child:active {background:#bfd1e7;color:#102842}
 .hero .actions a:focus-visible {outline:3px solid #386da1;outline-offset:4px}
 @media (prefers-reduced-motion:reduce) {.hero .actions a {transition:none}}
+
+.brand span:last-child:before{display:none}.brand svg{position:absolute;left:0;bottom:.06em;width:.49em;height:.56em;fill:var(--navy)}.brand span:last-child{padding-left:.56em}
