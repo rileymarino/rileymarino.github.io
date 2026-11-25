@@ -84,7 +84,6 @@ section,.detail,footer {border-color:var(--rule)}
 @font-face {font-family:Poppins;src:url("assets/poppins-bold.ttf");font-weight:700;font-display:swap}
 header .brand {display:grid;width:max-content;font:700 1.55rem/.82 Poppins,Arial,sans-serif;letter-spacing:-.075em;text-transform:uppercase;color:#141619}
 .brand span:last-child {position:relative;padding-left:.47em}
-.brand span:last-child:before {content:"";position:absolute;left:.06em;bottom:.06em;width:.18em;height:.52em;transform:skewX(-18deg);background:var(--navy)}
 header nav {font:500 clamp(.88rem,1.5vw,1.2rem)/1.4 Poppins,Arial,sans-serif;letter-spacing:-.025em;color:#141619}
 
 .profile section {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.65fr);gap:clamp(28px,6vw,84px);align-items:start;padding:clamp(32px,5vw,68px) 0}
