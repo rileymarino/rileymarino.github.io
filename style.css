@@ -78,7 +78,9 @@ section,.detail,footer {border-color:var(--rule)}
 .portrait.headshot {border-radius:16px;aspect-ratio:1 / 1}
 .headshot img {width:130%;margin-left:-15%}
 @font-face {font-family:"Playfair Display";src:url("assets/playfair-display.ttf") format("truetype");font-weight:400 900;font-display:swap}
-.hero .role {margin:0 0 12px;font:700 clamp(1rem,1.65vw,1.4rem)/1.4 "Playfair Display",Georgia,serif;letter-spacing:.01em;color:var(--navy)}
+.hero .role {margin:0 0 12px;font:700 clamp(1rem,1.65vw,1.4rem)/1.1 "Source Sans Pro",Arial,sans-serif;letter-spacing:.045em;text-transform:uppercase;color:var(--navy)}
+.hero .role span {display:inline-block}
+.hero .role span+span {border-left:.09em solid currentColor;padding-left:.38em;margin-left:.12em}
 .hero-summary {font-size:clamp(1.05rem,1.6vw,1.3rem);line-height:1.5;max-width:48ch;margin:18px 0 26px}
 @font-face {font-family:Poppins;src:url("assets/poppins-medium.ttf");font-weight:500;font-display:swap}
 @font-face {font-family:Poppins;src:url("assets/poppins-extra-bold.ttf");font-weight:800;font-display:swap}
