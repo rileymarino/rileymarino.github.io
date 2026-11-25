@@ -125,3 +125,13 @@ body:has(.profile) {background:white}
 footer {width:100%;padding:14px max(8px,1vw);align-items:flex-start;background:white;color:#606d79;border:0;font:400 15px/1.55 "Source Sans Pro",Arial,sans-serif}
 footer p {margin:0}footer .footer-links {display:flex;gap:18px}footer a {font-weight:700;text-decoration:none}
 @media(max-width:680px){footer {flex-direction:column;gap:10px;padding:18px 5%}}
+
+.hero .actions a {transition:background-color .15s,color .15s,border-color .15s}
+@media (hover:hover) {
+  .hero .actions a:first-child:hover {background:#305588;border-color:#305588;color:white}
+  .hero .actions a:last-child:hover {background:#e1eaf5;border-color:#36587b;color:#142c4c}
+}
+.hero .actions a:first-child:active {background:#0d203a;border-color:#0d203a}
+.hero .actions a:last-child:active {background:#bfd1e7;color:#102842}
+.hero .actions a:focus-visible {outline:3px solid #386da1;outline-offset:4px}
+@media (prefers-reduced-motion:reduce) {.hero .actions a {transition:none}}
