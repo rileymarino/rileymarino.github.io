@@ -159,3 +159,8 @@ footer p {margin:0}footer .footer-links {display:flex;gap:18px}footer a {font-we
 .work-group h4 {margin:0;font:500 1.1rem/1.4 Poppins,Arial,sans-serif}
 .work-group h4 a {color:var(--navy)}
 @media(max-width:760px){.category-grid,.work-group {grid-template-columns:1fr;gap:16px}.category-number {margin-bottom:10px}}
+.profile #resume {display:block}
+#resume h2 {padding-bottom:14px;border-bottom:1px solid var(--rule)}
+.resume-download {display:inline-flex;align-items:center;gap:10px;margin-top:18px;padding:13px 20px;border-radius:8px;background:var(--navy);color:white;text-decoration:none;font:700 1.06rem/1.4 "Source Sans Pro",Arial,sans-serif}
+.resume-download:hover,.resume-download:focus-visible {background:#305588;color:white;text-decoration:none}
+.resume-download:active {background:#0d203a}
