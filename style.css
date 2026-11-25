@@ -78,7 +78,7 @@ section,.detail,footer {border-color:var(--rule)}
 .portrait.headshot {border-radius:16px;aspect-ratio:1 / 1}
 .headshot img {width:130%;margin-left:-15%}
 @font-face {font-family:"Playfair Display";src:url("assets/playfair-display.ttf") format("truetype");font-weight:400 900;font-display:swap}
-.hero .role {margin:0 0 12px;font:700 clamp(1rem,1.65vw,1.4rem)/1.1 "Source Sans Pro",Arial,sans-serif;letter-spacing:.045em;text-transform:uppercase;color:var(--navy)}
+.hero .role,.work-intro .role {margin:0 0 12px;font:700 clamp(1rem,1.65vw,1.4rem)/1.1 "Source Sans Pro",Arial,sans-serif;letter-spacing:.045em;text-transform:uppercase;color:var(--navy)}
 .hero .role span {display:inline-block}
 .hero .role span+span {border-left:.09em solid currentColor;padding-left:.38em;margin-left:.12em}
 .hero-summary {font-size:clamp(1.05rem,1.6vw,1.3rem);line-height:1.5;max-width:48ch;margin:18px 0 26px}
@@ -141,7 +141,9 @@ footer p {margin:0}footer .footer-links {display:flex;gap:18px}footer a {font-we
 
 .brand span:last-child:before{display:none}.brand svg{position:absolute;left:0;bottom:.06em;width:.49em;height:.56em;fill:#000}.brand span:last-child{padding-left:.56em}
 
-.work-page>h1 {margin:0;padding:clamp(36px,5vw,70px) 0 0;font-size:clamp(4rem,7vw,6.5rem)}
+.work-intro {padding:clamp(32px,4vw,56px) 0 0}
+.work-intro h1 {margin:.35em 0;font-size:clamp(2.6rem,4.5vw,3.5rem)}
+.work-intro .hero-summary {max-width:none;color:#000;margin:0}
 .work-page section {padding:clamp(32px,4vw,56px) 0}
 .work-page h2 {font-size:clamp(2.6rem,4.3vw,4rem)}
 .category-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:28px}
