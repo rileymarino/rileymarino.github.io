@@ -126,9 +126,9 @@ header nav {font:500 clamp(.88rem,1.5vw,1.2rem)/1.4 Poppins,Arial,sans-serif;let
 
 @font-face {font-family:"Source Sans Pro";font-weight:400;src:url("assets/footer-400.ttf");font-display:swap}
 @font-face {font-family:"Source Sans Pro";font-weight:700;src:url("assets/footer-700.ttf");font-display:swap}
-footer {width:100%;margin-top:clamp(64px,8vw,120px);padding:14px max(8px,1vw);align-items:flex-start;background:#fff;color:#606d79;border:0;font:400 15px/1.55 "Source Sans Pro",Arial,sans-serif}
-footer p {margin:0}footer .footer-links {display:flex;gap:18px}footer a {font-weight:700;text-decoration:none}
-@media(max-width:680px){footer {flex-direction:column;gap:10px;padding:18px 5%}}
+footer {width:100%;margin-top:clamp(64px,8vw,120px);padding:clamp(22px,2.4vw,36px) 4%;align-items:center;background:#fff;color:#606d79;border:0;font:400 15px/1.55 "Source Sans Pro",Arial,sans-serif}
+footer p {margin:0}footer .footer-links {display:flex;align-items:center;gap:clamp(18px,3vw,40px)}footer a {font-weight:700;text-decoration:none}
+@media(max-width:680px){footer {flex-direction:column;align-items:flex-start;gap:16px}}
 
 .hero .actions a {transition:background-color .15s,color .15s,border-color .15s}
 @media (hover:hover) {
