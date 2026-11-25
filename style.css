@@ -81,7 +81,8 @@ section,.detail,footer {border-color:var(--rule)}
 .hero-summary {font-size:clamp(1.05rem,1.6vw,1.3rem);line-height:1.5;max-width:48ch;margin:18px 0 26px}
 @font-face {font-family:Poppins;src:url("assets/poppins-medium.ttf");font-weight:500;font-display:swap}
 @font-face {font-family:Poppins;src:url("assets/poppins-extra-bold.ttf");font-weight:800;font-display:swap}
-header .brand {display:grid;width:max-content;font:800 1.55rem/.82 Poppins,Arial,sans-serif;letter-spacing:-.075em;text-transform:uppercase;color:#141619}
+@font-face {font-family:Poppins;src:url("assets/poppins-bold.ttf");font-weight:700;font-display:swap}
+header .brand {display:grid;width:max-content;font:700 1.55rem/.82 Poppins,Arial,sans-serif;letter-spacing:-.075em;text-transform:uppercase;color:#141619}
 .brand span:last-child {position:relative;padding-left:.47em}
 .brand span:last-child:before {content:"";position:absolute;left:.06em;bottom:.06em;width:.18em;height:.52em;transform:skewX(-18deg);background:var(--navy)}
 header nav {font:500 clamp(.88rem,1.5vw,1.2rem)/1.4 Poppins,Arial,sans-serif;letter-spacing:-.025em;color:#141619}
