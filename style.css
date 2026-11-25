@@ -157,4 +157,8 @@ footer p {margin:0}footer .footer-links {display:flex;gap:18px}footer a {font-we
 .work-group li+li {border-top:1px solid var(--rule);padding-top:16px;margin-top:20px}
 .work-group h4 {margin:0;font:500 1.1rem/1.4 Poppins,Arial,sans-serif}
 .work-group h4 a {color:var(--navy)}
+@media(min-width:761px){
+  .category-link {display:grid;grid-row:span 3;grid-template-rows:subgrid;row-gap:0}
+  .category-link h3,.category-link p {align-self:start}
+}
 @media(max-width:760px){.category-grid,.work-group {grid-template-columns:1fr;gap:16px}.category-number {margin-bottom:10px}}
