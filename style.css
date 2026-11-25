@@ -107,7 +107,7 @@ body:has(.profile) {background:white}
 .profile .profile-intro {width:95vw;position:relative;left:50%;transform:translateX(-50%);grid-template-columns:1fr 1fr;gap:0;padding:2.9vw 0 1.4vw}
 .profile-intro .portrait.headshot {border-radius:0;width:100%;max-width:none}
 .profile-bio {padding:2rem 7%;text-align:center;color:#111}
-.profile-bio h1 {font:400 clamp(2.4rem,3.15vw,4rem)/1.15 Spectral,Georgia,serif;letter-spacing:.035em;margin:0 0 .62em}
+.profile-bio h1 {font:400 clamp(2.4rem,3.15vw,4rem)/1.15 Poppins,Arial,sans-serif;letter-spacing:.035em;margin:0 0 .62em}
 .profile-bio p {font:400 clamp(.92rem,1.04vw,1.3rem)/1.6 Poppins,Arial,sans-serif;max-width:none;margin:0 0 1.1em}
 .contact-icons {display:flex;justify-content:center;gap:6px;margin-top:24px}
 .contact-icons>* {width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#111;color:white;text-decoration:none;font:800 16px/1 Poppins,Arial,sans-serif}
