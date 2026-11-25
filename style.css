@@ -104,7 +104,7 @@ header nav {font:500 clamp(.88rem,1.5vw,1.2rem)/1.4 Poppins,Arial,sans-serif;let
 @font-face {font-family:Poppins;src:url("assets/Poppins-Regular.ttf");font-weight:400;font-display:swap}
 @font-face {font-family:Spectral;src:url("assets/Spectral-Regular.ttf");font-weight:400;font-display:swap}
 body:has(.profile) {background:white}
-.profile .profile-intro {width:95vw;position:relative;left:50%;transform:translateX(-50%);grid-template-columns:1fr 1fr;gap:0;padding:2.9vw 0 1.4vw}
+.profile .profile-intro {width:min(92.4vw,1440px);position:relative;left:50%;transform:translateX(-50%);grid-template-columns:1fr 1fr;gap:0;padding:2.9vw 0 1.4vw}
 .profile-intro .portrait.headshot {border-radius:0;width:100%;max-width:none}
 .profile-bio {padding:2rem 7%;text-align:center;color:#111}
 .profile-bio h1 {font:400 clamp(2.4rem,3.15vw,4rem)/1.15 Poppins,Arial,sans-serif;letter-spacing:.035em;margin:0 0 .62em}
@@ -112,8 +112,8 @@ body:has(.profile) {background:white}
 .contact-icons {display:flex;justify-content:center;gap:6px;margin-top:24px}
 .contact-icons>* {width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#111;color:white;text-decoration:none;font:800 16px/1 Poppins,Arial,sans-serif}
 @media(max-width:760px){.profile .profile-intro {grid-template-columns:1fr;padding:24px 0}.profile-intro .portrait.headshot {max-width:420px;margin:auto}.profile-bio {padding:30px 4% 10px}}
-.speaking-photo {display:block;width:100%;aspect-ratio:1;object-fit:cover;object-position:45% center}
-@media(max-width:900px){.profile .profile-intro {grid-template-columns:1fr}.speaking-photo {aspect-ratio:3/2;max-width:650px;margin:auto}.profile-bio {max-width:760px;margin:auto}}
+.speaking-photo {display:block;width:100%;aspect-ratio:1;object-fit:cover;object-position:center 40%}
+@media(max-width:900px){.profile .profile-intro {grid-template-columns:1fr}.speaking-photo {aspect-ratio:auto;max-width:530px;margin:auto}.profile-bio {max-width:760px;margin:auto}}
 
 .profile #coursework {display:block}
 .course-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:26px}
