@@ -77,7 +77,7 @@ section,.detail,footer {border-color:var(--rule)}
 .headshot:after {display:none}
 .portrait.headshot {border-radius:16px;aspect-ratio:1 / 1}
 .headshot img {width:130%;margin-left:-15%}
-.hero .role {margin:0 0 12px}
+.hero .role {margin:0 0 12px;font:700 clamp(1rem,1.65vw,1.4rem)/1.4 "Source Sans Pro",Arial,sans-serif;letter-spacing:.01em;color:var(--navy)}
 .hero-summary {font-size:clamp(1.05rem,1.6vw,1.3rem);line-height:1.5;max-width:48ch;margin:18px 0 26px}
 @font-face {font-family:Poppins;src:url("assets/poppins-medium.ttf");font-weight:500;font-display:swap}
 @font-face {font-family:Poppins;src:url("assets/poppins-extra-bold.ttf");font-weight:800;font-display:swap}
