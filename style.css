@@ -107,7 +107,7 @@ body:has(.profile) {background:white}
 .profile .profile-intro {width:min(92.4vw,1440px);position:relative;left:50%;transform:translateX(-50%);grid-template-columns:1fr 1fr;gap:0;padding:2.9vw 0 1.4vw}
 .profile-intro .portrait.headshot {border-radius:0;width:100%;max-width:none}
 .profile-bio {padding:16px 7% 2rem;text-align:center;color:#111}
-.profile-bio h1 {font:700 clamp(2.4rem,3.15vw,4rem)/1.15 Poppins,Arial,sans-serif;letter-spacing:-.038em;margin:0 0 .62em}
+.profile-bio h1 {font:700 clamp(2.6rem,3.4vw,4.3rem)/1.15 Poppins,Arial,sans-serif;letter-spacing:-.038em;margin:0 0 .62em}
 .profile-bio p {font:400 clamp(.875rem,.96vw,1.125rem)/1.6 Poppins,Arial,sans-serif;max-width:none;margin:0 0 1.1em}
 .contact-icons {display:flex;justify-content:center;gap:6px;margin-top:24px}
 .contact-icons>* {width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:#111;color:white;text-decoration:none;font:800 16px/1 Poppins,Arial,sans-serif}
@@ -118,8 +118,9 @@ body:has(.profile) {background:white}
 .profile #coursework {display:block}
 .course-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:26px}
 .course-grid article {border:1px solid var(--rule);border-radius:12px;padding:clamp(20px,3vw,36px);background:white}
-.course-grid h3 {color:var(--navy)}
-.course-grid ul {list-style:none;padding:0;margin:16px 0 0;color:#495565}
+@media (hover:hover) {.course-grid article:hover {background:#edf2f8;border-color:var(--navy)}}
+.course-grid h3 {color:var(--navy);font-weight:700}
+.course-grid ul {list-style:none;padding:0;margin:16px 0 0;color:#000}
 .course-grid li+li {margin-top:5px}
 @media(max-width:650px){.course-grid {grid-template-columns:1fr}}
 
