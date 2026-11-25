@@ -160,19 +160,19 @@ footer p {margin:0}footer .footer-links {display:flex;align-items:center;gap:cla
 .work-group h4 a {color:var(--navy)}
 @media(max-width:760px){.category-grid,.work-group {grid-template-columns:1fr;gap:16px}.category-number {margin-bottom:10px}}
 .profile #resume {display:block}
-#resume h2 {padding-bottom:14px;border-bottom:1px solid var(--rule)}
+#resume h2 {padding-bottom:14px}
 .resume-download {display:inline-flex;align-items:center;gap:10px;margin-top:18px;padding:13px 20px;border-radius:8px;background:var(--navy);color:white;text-decoration:none;font:700 1.06rem/1.4 "Source Sans Pro",Arial,sans-serif}
 .resume-download:hover,.resume-download:focus-visible {background:#305588;color:white;text-decoration:none}
 .resume-download:active {background:#0d203a}
 
 /* Align section rules to the header while keeping text columns readable. */
 body {container-type:inline-size}
-main section,.detail,.work-group,#resume h2 {position:relative}
-main section,#resume h2 {border-bottom:0}
+main section,.detail,.work-group {position:relative}
+main section {border-bottom:0}
 .detail,.work-group {border-top:0}
-main section::after,.detail::before,.work-group::before,#resume h2::after {
+main section::after,.detail::before,.work-group::before {
   content:"";position:absolute;left:50%;width:92cqw;height:1px;
   transform:translateX(-50%);background:var(--rule);pointer-events:none
 }
-main section::after,#resume h2::after {bottom:0}
+main section::after {bottom:0}
 .detail::before,.work-group::before {top:0}
