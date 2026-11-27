@@ -186,3 +186,22 @@ main section::after {bottom:0}
 @media (prefers-reduced-motion: no-preference) {
   html.work-index {scroll-behavior:smooth}
 }
+
+.work-cover {display:block;width:100%;aspect-ratio:2.4;object-fit:cover;object-position:center;border-radius:5px;margin-bottom:18px;background:var(--paper)}
+.project-card[href="portfolio-website.html"] .work-cover,.project-card[href="navify.html"] .work-cover {object-fit:contain}
+.gem-case h1 {margin:.2em 0}
+.gem-case h2 {font-size:clamp(2.3rem,4.6vw,4.1rem);margin:0 0 .55em}
+.gem-case p {max-width:70ch}
+.gem-hero .project-type {margin-top:36px}
+.gem-case figure {margin:0}
+.gem-hero figure {margin-top:28px}
+.gem-case figure img {display:block;width:100%;border:1px solid var(--rule);border-radius:8px}
+.gem-case figcaption,.gem-sample small {display:block;font-size:.9rem;color:#44505c;margin-top:10px}
+.gem-split,.gem-pair {display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,56px);align-items:start}
+.gem-split p:first-child {margin-top:0}
+.gem-pair {margin-top:24px}
+.gem-pair img {height:clamp(290px,35vw,490px);object-fit:contain;background:#f1efea}
+.gem-sample {padding:clamp(24px,4vw,52px);background:#e5fcf8;text-align:center;border-radius:8px}
+.gem-sample span,.gem-sample strong {display:block}.gem-sample span {font:2.6rem var(--serif)}
+.gem-swatches {display:flex;justify-content:center;margin:22px 0}.gem-swatches i {width:44px;height:22px;background:#f8bfdc}.gem-swatches i:nth-child(2){background:#87e4d7}.gem-swatches i:nth-child(3){background:#f5f8f8}.gem-swatches i:nth-child(4){background:#333d39}
+@media(max-width:740px){.gem-split,.gem-pair {grid-template-columns:1fr}}
