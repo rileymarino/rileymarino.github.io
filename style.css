@@ -205,3 +205,6 @@ main section::after {bottom:0}
 .gem-sample span,.gem-sample strong {display:block}.gem-sample span {font:2.6rem var(--serif)}
 .gem-swatches {display:flex;justify-content:center;margin:22px 0}.gem-swatches i {width:44px;height:22px;background:#f8bfdc}.gem-swatches i:nth-child(2){background:#87e4d7}.gem-swatches i:nth-child(3){background:#f5f8f8}.gem-swatches i:nth-child(4){background:#333d39}
 @media(max-width:740px){.gem-split,.gem-pair {grid-template-columns:1fr}}
+
+.work-cover.codegarden-cover {object-fit:contain;background:#ebdcc8}
+#prototype {scroll-margin-top:6rem}
