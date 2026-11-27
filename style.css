@@ -79,7 +79,7 @@ section,.detail,footer {border-color:var(--rule)}
 .portrait.headshot {border-radius:16px;aspect-ratio:1 / 1}
 .headshot img {width:130%;margin-left:-15%}
 @font-face {font-family:"Playfair Display";src:url("assets/playfair-display.ttf") format("truetype");font-weight:400 900;font-display:swap}
-.hero .role,.work-intro .role {margin:0 0 12px;font:700 clamp(1rem,1.65vw,1.4rem)/1.1 "Source Sans Pro",Arial,sans-serif;letter-spacing:.045em;text-transform:uppercase;color:var(--navy)}
+.hero .role,.work-intro .role,.project-type {margin:0 0 12px;font:700 clamp(1rem,1.65vw,1.4rem)/1.1 "Source Sans Pro",Arial,sans-serif;letter-spacing:.045em;text-transform:uppercase;color:var(--navy)}
 .hero .role span {display:inline-block}
 .hero .role span+span {border-left:.09em solid currentColor;padding-left:.38em;margin-left:.12em}
 .hero-summary {font-size:clamp(1.05rem,1.6vw,1.3rem);line-height:1.5;max-width:48ch;margin:18px 0 26px}
@@ -153,11 +153,15 @@ footer p {margin:0}footer .footer-links {display:flex;align-items:center;gap:cla
 .category-number {display:flex;justify-content:space-between;color:var(--navy);font:500 .95rem Poppins,Arial,sans-serif;margin-bottom:26px}
 .category-link h3,.work-group h3 {font-size:clamp(1.6rem,2.6vw,2.4rem)}
 .category-link p,.work-group p {color:#46515d;margin:.7em 0 0}
-.work-group {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.65fr);gap:6%;margin-top:32px;padding-top:26px;border-top:1px solid var(--rule)}
-.work-group ul {list-style:none;padding:0;margin:0}
-.work-group li+li {padding-top:16px;margin-top:20px}
-.work-group h4 {margin:0;font:500 1.1rem/1.4 Poppins,Arial,sans-serif}
-.work-group h4 a {color:var(--navy)}
+.work-group {margin-top:36px;padding-top:26px}
+.project-grid {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:16px;margin-top:20px}
+.project-card {display:block;border:1px solid var(--rule);border-radius:10px;background:white;color:var(--ink);text-decoration:none;padding:24px}
+.project-card:hover,.project-card:focus-visible {background:#edf2f8;border-color:var(--navy);color:var(--ink);text-decoration:none}
+.project-card .project-type,.project-story .project-type {display:block;font-size:.85rem;margin:0 0 12px}
+.project-card h4 {font:700 1.2rem/1.25 Poppins,Arial,sans-serif;margin:0;overflow-wrap:anywhere}
+.project-story .project-type {margin-top:40px}
+.project-story p {max-width:65ch}
+.project-photo {display:block;max-width:min(100%,760px);height:auto;margin-top:24px}
 @media(max-width:760px){.category-grid,.work-group {grid-template-columns:1fr;gap:16px}.category-number {margin-bottom:10px}}
 .profile #resume {display:block}
 #resume h2 {padding-bottom:14px}
