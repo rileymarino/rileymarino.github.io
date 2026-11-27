@@ -210,3 +210,11 @@ main section::after {bottom:0}
 #prototype {scroll-margin-top:6rem}
 
 .work-cover.health-shack-cover {object-fit:contain;background:#edece5}
+
+.work-cover.adp-cover {object-fit:contain;background:#8d0305}
+.adp-metrics {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,215px),1fr));gap:24px;margin:28px 0}
+.adp-metrics div {border-top:2px solid #950708;padding-top:14px}
+.adp-metrics dt {font-weight:bold}
+.adp-metrics dd {margin:6px 0;font:700 2.5rem/1.2 Poppins,Arial,sans-serif;color:#870805}
+.adp-metrics small {display:block;margin-top:6px;font:400 1rem/1.5 Arial,sans-serif;color:var(--ink)}
+.adp-case .adp-field-photo {max-width:370px}
