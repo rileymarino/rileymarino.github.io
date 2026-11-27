@@ -176,3 +176,5 @@ main section::after,.detail::before,.work-group::before {
 }
 main section::after {bottom:0}
 .detail::before,.work-group::before {top:0}
+.interest-groups {display:grid;gap:24px}
+.interest-groups ul {margin-top:8px}
