@@ -229,3 +229,12 @@ main section::after {bottom:0}
 .navify-tiers {display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:24px;margin:2rem 0}
 .navify-tiers dt {font-weight:700;border-top:2px solid var(--navy);padding-top:12px}
 .navify-tiers dd {margin:.5rem 0}
+
+.project-card[href="airport-flights.html"] .work-cover {object-fit:contain;background:white}
+.flights-case h1 {font-size:clamp(2.6rem,6vw,5.2rem);max-width:22ch}
+.flights-case table {width:100%;max-width:44rem;border-collapse:collapse;margin:1.5rem 0}
+.flights-case caption {text-align:left;margin-bottom:.6rem;font-weight:700}
+.flights-case td,.flights-case th {text-align:left;border-bottom:1px solid var(--rule);padding:.6rem}
+.flights-case tbody th {font-weight:inherit}
+.flights-case tbody tr:first-child {background:#edf2f8;font-weight:700}
+.flights-case pre {overflow-x:auto;background:#edf2f8;padding:1rem;border-radius:6px}
