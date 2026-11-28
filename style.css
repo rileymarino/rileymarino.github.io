@@ -220,7 +220,8 @@ main section::after {bottom:0}
 .adp-case .adp-field-photo {max-width:370px}
 
 .navify-cover {background:#eceae1}
-.thumb.navify-cover img,.thumb.featured-cover img {width:100%;height:100%;object-fit:contain}
+.thumb.navify-cover img {width:100%;height:100%;object-fit:contain}
+.thumb.featured-cover img {display:block;width:100%;height:100%;object-fit:cover;object-position:center}
 .navify-case section[id] {scroll-margin-top:5rem}
 .navify-player {display:block;width:100%;aspect-ratio:16/9;border:1px solid var(--rule);border-radius:8px}
 .navify-slide {display:block;width:100%;height:auto;margin-top:1rem}
